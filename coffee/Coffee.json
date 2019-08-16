@@ -1,0 +1,14 @@
+//json document
+
+{
+  "heading" : "Coffee Order",
+  "Coffee" : [
+    {
+      "type" : ["latte" , "espresso" , "americano" ]
+
+      "size" : [
+        "extra large" , "large" , "medium" , "small"],
+
+    }
+  ]
+}
