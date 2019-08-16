@@ -3,7 +3,7 @@
 let header = document.querySelector('header');
 let section = document.querySelector('section');
 
-let requestURL = 'C:/Users/susha/Desktop/assignment JAVA/javascript/final/employee.json';
+let requestURL = 'https://github.com/200396815/final-/blob/master/final/employee.json';
 
 let request = new XMLHttpRequest();
 
@@ -42,7 +42,7 @@ function topinfo(jsonObj) {
        list.appendChild(listItem);
      }
 
-     
+
      article.appendChild(ul);
      section.appendChild(article);
 
