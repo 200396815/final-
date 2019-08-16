@@ -2,7 +2,7 @@
 let header = document.querySelector('header');
 let section = document.querySelector('section');
 //step 2 Store the url of a json file in a variables
-let requestURL = 'C:/Users/susha/Desktop/assignment JAVA/javascript/coffee/Coffee.json';
+let requestURL = 'https://github.com/200396815/final-/blob/master/coffee/Coffee.json';
 //step 3 Create a new XHR object
 let request = new XMLHttpRequest();
 //step 4 open a new request using the request method
