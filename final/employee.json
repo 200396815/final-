@@ -1,0 +1,16 @@
+//json document
+
+{
+  "employeeinfo" : "Employee Info",
+  "employee" : [
+    {
+      "name" : "Biff Henderson",
+      "employeeNumber" : 30573,
+      "department" : "Reposessions",
+      "active" : "true",
+      "interests" : [
+        "the Mob" , "fast cars" , "baseball"]
+
+    }
+  ]
+}
