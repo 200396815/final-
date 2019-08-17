@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Project 4 </title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="main.css" rel="stylesheet">
+<style>
+
+  #map {
+    height: 17%;
+    width: 100%;
+   }
+</style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1> Weird Deals Offer!! </h1>
+    </header>
+    <main>
+       <form action="main.html" method="post">
+          <fieldset class="form-group">
+             <input type="text" name="name" class="form-control" placeholder="Please enter your full name *" required>
+               <input type="number" name="age" class="form-control" placeholder="Please enter your age *" required min="1" max="100">
+             <input type="text" name="city" class="form-control" placeholder="Please enter your location *" required>
+             <input type="email" name="email" class="form-control" placeholder="Please enter your email *" required id="mail">
+          </fieldset>
+
+
+          <input type="submit"  value="submit form" name="submit">
+       </form>
+
+    </main>
+    <footer>
+      <p> &copy; Sushant Jain 200393775</p>
+      <h3>My Google Maps Demo</h3>
+
+      <div id="map"></div>
+      <script>
+
+  function initMap() {
+
+    var barrie = {lat: 44.3894, lng: 79.6903};
+
+    var map = new google.maps.Map(
+        document.getElementById('map'), {zoom: 4, center: barrie});
+
+    var marker = new google.maps.Marker({position: barrie, map: map});
+  }
+      </script>
+      <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPMu2B4uMQ-Ev_OH_o6MGBkpx3IIWuhPk&callback=initMap">
+      </script>
+    </footer>
+  </div>
+</body>
+<script> src="validation.js"></script>
+</html>
